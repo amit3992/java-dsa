@@ -9,7 +9,7 @@ public class Greeter {
     public String sayHello() {
         LOGGER.info("testing info log");
         LOGGER.error("testing error log");
-        LOGGER.info("logs are working!");
+        LOGGER.debug("testing debug log!");
         return "Hello world!";
     }
 }
